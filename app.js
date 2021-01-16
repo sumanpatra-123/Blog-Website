@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser:true, useUnifiedTopology: true});
+mongoose.connect("Add ur mongodbWebsite", {useNewUrlParser:true, useUnifiedTopology: true});
 
 const postSchema = {
   title: String,
